@@ -37,10 +37,17 @@ img {
 .container {
   max-width: 1040px;
 }
+.w-680 {
+  width: 680px;
+}
 
 .background-alter {
   background-image: url(../assets/Background_Intro.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+li {
+  list-style: none;
 }

@@ -1,0 +1,26 @@
+.flex {
+  display: flex;
+}
+
+.w-center {
+  align-items: center;
+}
+
+.h-center{
+    justify-content: center;
+}
+
+.between {
+  justify-content: space-between;
+}
+
+.flex-flow-col {
+  flex-direction: column;
+}
+
+.gap-8 {
+  gap: 8px;
+}
+.gap-16 {
+  gap: 16px;
+}
