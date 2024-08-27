@@ -1,1 +1,16 @@
 @import url(global.css);
+
+body {
+  background-color: var(--gray-200);
+  color: var(--gray-600);
+}
+
+section#intro {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../assets/Background_Intro.png);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
