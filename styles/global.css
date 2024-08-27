@@ -17,55 +17,30 @@
   --gray-400: #878ea1;
   --gray-500: #c0c4ce;
   --gray-600: #e2e4e9;
+
+  --title-lg: bold 56px/120% "Asap", sans-serif;
+  --title-md: bold 24px/120% "Asap", sans-serif;
+  --title-sm: bold 16px/120% "Asap", sans-serif;
+
+  --subtitle: normal 20px/120% "Inconsolata", sans-serif;
+
+  --text-md: normal 16px/140% "Maven Pro", sans-serif;
+  --text-sm: normal 14px/140% "Maven Pro", sans-serif;
+
+  --link-md: 500 16px/140% "Maven Pro", sans-serif;
 }
 
-.maven-pro {
-  font-family: "Maven Pro", sans-serif;
-  font-optical-sizing: auto;
+img {
+  max-width: 100%;
 }
 
-.inconsolata {
-  font-family: "Inconsolata", monospace;
-  font-optical-sizing: auto;
+.container {
+  max-width: 1040px;
 }
 
-.asap {
-  font-family: "Asap", sans-serif;
-  font-optical-sizing: auto;
-}
-
-.title-lg {
-  font-size: 56px;
-  line-height: 120%;
-  font-weight: bold;
-}
-
-.title-md {
-  font-size: 24px;
-  line-height: 120%;
-  font-weight: bold;
-}
-
-.title-sm {
-  font-size: 16px;
-  line-height: 120%;
-  font-weight: bold;
-}
-
-.subtitle {
-  font-size: 20px;
-  line-height: 120%;
-  font-weight: normal;
-}
-
-.text-md {
-  font-size: 16px;
-  line-height: 140%;
-  font-weight: normal;
-}
-
-.text-sm {
-  font-size: 14px;
-  line-height: 140%;
-  font-weight: normal;
+.background-alter {
+  background-image: url(../assets/Background_Intro.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
