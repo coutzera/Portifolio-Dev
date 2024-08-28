@@ -1,6 +1,6 @@
 # 💼 Projeto: Portfólio Dev
 
-![Portfolio Dev](https://s3-alpha.figma.com/hub/file/6065514090/45157bc2-fe7b-4eaa-8e22-a9381ea8977a-cover.png)
+![Local Turístico](https://github.com/coutzera/Portifolio-Dev/blob/master/assets/thumbnail/thumbnail-portdev.png)
 
 ## 🎯 Objetivo
 
