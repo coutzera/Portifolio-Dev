@@ -1,4 +1,12 @@
 section {
   width: 100vw;
+  height: 100%;
+}
+
+.vh100 {
   height: 100vh;
+}
+
+section#services {
+  background-color: var(--gray-100);
 }

@@ -14,19 +14,34 @@ body {
   width: 106px;
   height: 106px;
   border-radius: 50%;
-  
-  border: 3px solid var(--red);
 
-  img {
+  border: 3px solid var(--red);
+  position: relative;
+
+  .profile {
     width: 94px;
     height: 94px;
     border-radius: 50%;
-
   }
+}
+
+.overlay {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  bottom: 0;
+  right: 0;
 }
 
 .tag {
   padding: 8px 16px;
   background-color: var(--gray-300);
   border-radius: 999px;
+}
+
+#links li {
+  width: 400px;
+  padding: 20px;
+  background-color: var(--gray-300);
+  border-radius: 8px;
 }

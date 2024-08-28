@@ -14,17 +14,25 @@
   </head>
   <body>
     <main>
-      <section id="intro" class="background-alter flex w-center flex-flow-col">
-        <div id="info" class="container flex w-center flex-flow-col">
-          <header class="flex flex-flow-col w-center w-680">
+      <section
+        id="intro"
+        class="background-alter flex w-center flex-flow-col vh100"
+      >
+        <div id="info" class="container flex w-center flex-flow-col mb-144">
+          <header class="flex flex-flow-col w-center w-680 mb-80">
             <div id="avatar" class="flex w-center h-center mt-120 mb-56">
-              <img src="https://github.com/coutzera.png" alt="Foto do perfil" />
+              <img
+                src="https://github.com/coutzera.png"
+                alt="Foto do perfil"
+                class="profile"
+              />
+              <img src="./assets/icons/Code.png" alt="" class="overlay" />
             </div>
             <div id="text" class="flex flex-flow-col w-center">
-              <div id="title" class="flex flex-flow-col w-center">
+              <div id="title" class="flex flex-flow-col w-center mb-20">
                 <h3 class="subtitle gray-400">
                   Hello World! Meu nome é
-                  <span class="span-red">Hudson Coutinho</span> e sou
+                  <span class="red">Hudson Coutinho</span> e sou
                 </h3>
                 <h1 class="title-lg">Desenvolvedor Fullstack</h1>
               </div>
@@ -69,9 +77,196 @@
           <img src="./assets/icons/CaretDoubleDown.svg" alt="" />
         </div>
       </section>
-      <section id="projects"></section>
-      <section id="services"></section>
-      <section id="contact"></section>
+
+      <section id="projects" class="flex flex-flow-col w-center">
+        <header class="flex flex-flow-col w-center mb-80 mt-120">
+          <h3 class="subtitle red mb-8">Meu trabalho</h3>
+          <h2 class="title-md">Veja os projetos em destaque</h2>
+        </header>
+        <div id="grid" class="grid grid-cols-3 gap-24 mb-144">
+          <div class="project-card">
+            <img
+              src="./assets/thumbnail/Thumbnail_Project-01.png"
+              alt="Travelgram"
+              class="mb-20"
+            />
+            <div id="text">
+              <h4 class="title-sm mb-8">Travelgram</h4>
+              <p class="text-sm gray-500">
+                Rede social onde as pessoas mostram os registros de suas viagens
+                pelo mundo
+              </p>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <img
+              src="./assets/thumbnail/Thumbnail_Project-02.png"
+              alt="Tech News"
+              class="mb-20"
+            />
+            <div id="text">
+              <h4 class="title-sm mb-8">Tech News</h4>
+              <p class="text-sm gray-500">
+                Rede social onde as pessoas mostram os registros de suas viagens
+                pelo mundo
+              </p>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <img
+              src="./assets/thumbnail/Thumbnail_Project-03.png"
+              alt="Página de Receitas"
+              class="mb-20"
+            />
+            <div id="text">
+              <h4 class="title-sm mb-8">Página de Receitas</h4>
+              <p class="text-sm gray-500">
+                Página com o passo a passo de uma receita para cupcakes
+              </p>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <img
+              src="./assets/thumbnail/Thumbnail_Project-04.png"
+              alt="Zingen"
+              class="mb-20"
+            />
+            <div id="text">
+              <h4 class="title-sm mb-8">Zingen</h4>
+              <p class="text-sm gray-500">
+                Landing Page completa e responsiva de um aplicativo de Karaokê
+              </p>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <img
+              src="./assets/thumbnail/Thumbnail_Project-05.png"
+              alt="Refund"
+              class="mb-20"
+            />
+            <div id="text">
+              <h4 class="title-sm mb-8">Refund</h4>
+              <p class="text-sm gray-500">
+                Um sistema para pedido e acompanhamento de reembolso
+              </p>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <img
+              src="./assets/thumbnail/Thumbnail_Project-06.png"
+              alt="Página de Turismo"
+              class="mb-20"
+            />
+            <div id="text">
+              <h4 class="title-sm mb-8">Página de Turismo</h4>
+              <p class="text-sm gray-500">
+                Página com as principais informações para quem quer viajar para
+                Busan
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="flex flex-flow-col w-center">
+        <header class="flex flex-flow-col w-center mb-80 mt-120">
+          <h3 class="subtitle red mb-8">Meus serviços</h3>
+          <h2 class="title-md">Como posso ajudar seu negócio</h2>
+        </header>
+        <div id="grid" class="grid grid-cols-3 gap-24 mb-144">
+          <div class="service-card">
+            <img
+              src="./assets/icons/Devices.svg"
+              alt="Dispositivos"
+              class="mb-20"
+            />
+            <div id="text">
+              <h4 class="title-sm mb-8">Websites e Aplicativos</h4>
+              <p class="text-sm gray-500">Desenvolvimento de interfaces</p>
+            </div>
+          </div>
+
+          <div class="service-card">
+            <img
+              src="./assets/icons/HardDrives.svg"
+              alt="Armazenamento"
+              class="mb-20"
+            />
+            <div id="text">
+              <h4 class="title-sm mb-8">API e banco de dados</h4>
+              <p class="text-sm gray-500">Criação de serviços do sistema</p>
+            </div>
+          </div>
+
+          <div class="service-card">
+            <img src="./assets/icons/Infinity.svg" alt="DevOps" class="mb-20" />
+            <div id="text">
+              <h4 class="title-sm mb-8">DevOps</h4>
+              <p class="text-sm gray-500">
+                Gestão e infraestrutura da aplicação
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="contact"
+        class="background-alter flex w-center flex-flow-col vh100"
+      >
+        <header class="flex flex-flow-col w-center mb-80 mt-120">
+          <h3 class="subtitle purple mb-8">Meus serviços</h3>
+          <h2 class="title-md mb-8">Como posso ajudar seu negócio</h2>
+          <p class="text-md gray-500">
+            Entre em contato ou acompanhe as minhas redes sociais!
+          </p>
+        </header>
+        <div id="links">
+          <ul class="flex gap-16 flex-flow-col">
+            <li>
+              <a href="#" class="flex between">
+                <span class="flex w-center gap-16">
+                  <img src="./assets/icons/LinkedinLogo.svg" alt="Linkedin" />
+                  <p class="link-md gray-400">Linkedin</p>
+                </span>
+                <img src="./assets/icons/ArrowUpRight.svg" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="#" class="flex between">
+                <span class="flex w-center gap-16">
+                  <img src="./assets/icons/InstagramLogo.svg" alt="Instagram" />
+                  <p class="link-md gray-400">Instagram</p>
+                </span>
+                <img src="./assets/icons/ArrowUpRight.svg" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="#" class="flex between">
+                <span class="flex w-center gap-16">
+                  <img src="./assets/icons/GithubLogo.svg" alt="Github" />
+                  <p class="link-md gray-400">Github</p>
+                </span>
+                <img src="./assets/icons/ArrowUpRight.svg" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="#" class="flex between">
+                <span class="flex w-center gap-16">
+                  <img src="./assets/icons/EnvelopeSimple.svg" alt="E-mail" />
+                  <p class="link-md gray-400">E-mail</p>
+                </span>
+                <img src="./assets/icons/ArrowUpRight.svg" alt="" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
   </body>
 </html>

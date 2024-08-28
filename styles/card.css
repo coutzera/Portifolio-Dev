@@ -1,0 +1,19 @@
+.project-card {
+  width: 330px;
+  padding: 12px 12px 21px;
+
+  border-radius: 12px;
+  background-color: var(--gray-300);
+}
+
+.project-card img {
+  border-radius: 8px;
+}
+
+.service-card {
+  width: 280px;
+  padding: 20px;
+
+  border: 1px solid var(--gray-200);
+  border-radius: 12px;
+}
